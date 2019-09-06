@@ -1,10 +1,12 @@
 body
 {
-
+	background-image: linear-gradient(blue, LightBlue, blue);
 }
 
 ol, ul
 {list-style-position: inside;}
+
+h2 {color: LightBlue;}
 
 #wrapper
 {
@@ -13,12 +15,29 @@ ol, ul
 	width: 80%;
 }
 
+header img
+{
+	float: right;
+	max-height:100%;
+	max-width:100%;
+}
+
+header
+{
+	color: white;
+	background-color: rgb(0,0,50);
+}
+
 nav
 {
 	background-color: LightBlue;
 }
 
 main
+{background-color: white;}
+
+footer
 {
-	text-indent: 5%;
+	background-color: white;
+	text-align: center;
 }
