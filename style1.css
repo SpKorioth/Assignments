@@ -36,11 +36,10 @@ header
 	background-repeat: no-repeat;
 	background-position: right;
 	height: 72px;
-	position: relative;
 }
 header h1
 {
-	position: absolute;
+	position: relative;
 	top: 15px;
 }
 
