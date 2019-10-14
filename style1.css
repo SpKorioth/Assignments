@@ -40,7 +40,7 @@ header
 header h1
 {
 	position: relative;
-	top: 15px;
+	bottom: 5px;
 }
 
 nav
