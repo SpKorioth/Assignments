@@ -2,10 +2,22 @@ body
 {
 	background-image: linear-gradient(rgb(53, 153, 205), rgb(188, 221, 240), rgb(53, 153, 205));
 	font-family: sans-serif;
+	color: rgb(0,0,50);
 }
 
-h1, h2, h3, h4 {font-family: serif;}
+h1, h2, h4 {font-family: serif;}
 h2 {color: rgb(46,133,179);}
+
+table
+{
+	text-align: center;
+	border-collapse: collapse;
+}
+th, td
+{
+	border: 1px solid rgb(144,199,229);
+	padding: .15em;
+}
 
 dt {font-weight: bold;}
 
@@ -36,13 +48,13 @@ header
 	background-image: url("sunset.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
-	height: 72px;
+	background-size: contain;
+	min-height: 72px;
 	position: relative;
 }
 header h1
 {
-	position: absolute;
-	top: 15px;
+	padding-top: 1em;
 }
 
 nav
